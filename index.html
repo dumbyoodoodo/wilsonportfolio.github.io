@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Wilson</title>
+</head>
+<body>
+
+    <!--navbar-->
+    <nav>
+        <div class = "left"> 
+            <a>Wilson Tu</a>
+        </div>
+
+        <div class = "right">
+            <a href="https://www.linkedin.com/in/wilsontuece" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:wilsonwatttu@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!--name, description, headshot-->
+        <section class= "hero-section">
+            <div class = "text">
+                <h2>Hi, I'm Wilson✌️</h2>
+                <p>I am an Electrical & Computer Engineering student at the University of Texas at Austin with skills in embedded systems, circuits, and programming languages like Java and C. I have worked on projects like traffic light systems and chess applications. My versatile experience spans IT, sales, and more. Feel free to reach out!</p>
+            
+
+            <div class = "links">
+                <a href="#skills">
+                    <i class="fa-solid fa-bolt"></i>
+                    <span>Skills</span>
+                </a>
+
+                <a href="#contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+
+            
+           </div>
+           <div class = "selfie">
+                <img src="portimages\headshot.webp" alt="my photo">
+           </div>
+        </section>
+
+        <!--skills-->
+        <section id = "skills" class = "skillss">
+            <h2>Hardware Skills</h2>
+            
+
+            <div class = "cells">
+                <div class = "cell">
+                    <span>Microcontrollers</span>
+                </div>
+
+                <div class = "cell">
+                    <span>PCBs</span>
+                </div>
+
+                <div class = "cell">
+                    <span>Soldering</span>
+                </div>
+
+                <div class = "cell">
+                    <span>KiCad</span>
+                </div>
+
+                <div class = "cell">
+                    <span>Electronics</span>
+                </div>
+
+            </div>
+        </section>
+
+        <section class = "skills2">
+            <h2>Software Skills</h2>
+            <div class = "cells2">
+                <div class = "cell2">
+                    <img src="portimages/javapng.png" alt="">
+                    <span>Java</span>
+                </div>
+
+                <div class = "cell2">
+                    <img src="portimages/Cpng.png" alt="">
+                    <span>C</span>
+                </div>
+
+                <div class = "cell2">
+                    <img src="portimages/Rpng.png" alt="">
+                    <span>R</span>
+                </div>
+
+                <div class = "cell2">
+                    <img src="portimages/arm.webp" alt="">
+                    <span>Assembly</span>
+                </div>
+
+                <div class = "cell2">
+                    <img src="portimages/blackhtml.webp" alt="">
+                    <span>HTML</span>
+                </div>
+
+                <div class = "cell2">
+                    <img src="portimages/csscuh.png" alt="">
+                    <span>CSS</span>
+                </div>
+            </div>
+        </section>
+
+        <!--contact-->
+        <section id="contact" class="contact-section">
+            <div class="group">
+                <div class="text-block">
+                    <h2>Contact</h2>
+                    <p>
+                        I’d love to hear from you! Whether you have questions about my work, want to collaborate on a project, or simply want to connect, feel free to reach out.
+                    </p>
+                </div>
+        
+                <form action="https://formsubmit.co/21c6a82327e602831fcdffa6ec025e32" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+                
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+        
+    </main>
+</html>
