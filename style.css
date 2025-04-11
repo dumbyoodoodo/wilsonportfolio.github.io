@@ -350,3 +350,22 @@ form button:hover {
         max-width: 500px;
     }
 }
+
+@media (max-width: 600px) {
+  .cell2 {
+    width: 100px;
+    padding: 10px;
+  }
+
+  .cell2 img {
+    width: 50px;
+  }
+
+  .cell2 span {
+    font-size: 14px;
+  }
+
+  .cells2 {
+    gap: 10px; /* Optional: reduce spacing between cells */
+  }
+}
