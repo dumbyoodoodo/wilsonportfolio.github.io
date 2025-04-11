@@ -353,4 +353,80 @@ form button:hover {
     }
 }
 
+.projects-section {
+    padding: 50px 20px;
+    background-color: black; /* or any color matching your theme */
+    color: white;
+    text-align: left;
+  }
+  
+  .projects-section h2 {
+    font-size: 32px;
+    color: var(--button-color);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .projects {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .project {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+  }
+  
+  .project h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: var(--button-color);
+  }
+  
+  .project p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .project a {
+    color: #4da6ff;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+   
+  }
+  
+  iframe {
+    max-width: 100%;
+    border-radius: 10px;
+    width: 240px; /* smaller width */
+    height: 427px; /* keeps a 9:16 ratio */
+  }
+
+  @media (max-width: 600px) {
+    .project-section {
+      padding: 20px 10px;
+    }
+  
+    .project h3 {
+      font-size: 20px;
+    }
+  
+    .project p {
+      font-size: 14px;
+    }
+  }
+  
+  
+
 
