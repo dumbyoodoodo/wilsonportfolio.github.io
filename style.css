@@ -161,7 +161,7 @@ nav .right a{
 
 .skillss{
     padding: 0 50px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .cells {
@@ -361,9 +361,9 @@ form button:hover {
   }
   
   .projects-section h2 {
-    font-size: 32px;
+    font-size: 35px;
     color: var(--button-color);
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: center;
   }
   
