@@ -353,6 +353,25 @@ form button:hover {
     }
 }
 
+/* Make skills2 bubbles smaller on phones */
+@media (max-width: 600px) {
+    .cell2 {
+        padding: 6px 10px;
+        border-radius: 15px;
+        min-width: 60px;
+        max-width: 80px;
+    }
+    .cell2 img {
+        width: 24px;
+        margin-bottom: 5px;
+    }
+    .cell2 span {
+        font-size: 12px;
+    }
+}
+
+
+
 .projects-section {
     padding: 50px 20px;
     background-color: black; /* or any color matching your theme */
@@ -426,6 +445,24 @@ form button:hover {
       font-size: 14px;
     }
   }
+
+/* Force cell2 bubbles smaller on mobile */
+@media (max-width: 600px) {
+    .cell2 {
+        padding: 6px 10px !important;
+        border-radius: 15px !important;
+        min-width: 60px !important;
+        max-width: 80px !important;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.08) !important;
+    }
+    .cell2 img {
+        width: 22px !important;
+        margin-bottom: 4px !important;
+    }
+    .cell2 span {
+        font-size: 11px !important;
+    }
+}
   
   
 
